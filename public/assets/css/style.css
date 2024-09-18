@@ -1,12 +1,26 @@
-.bg-collaps {
-    background-color: #F1F3FF;
+/* all */
+html {
+    scroll-behavior: smooth;
+    font-family: "helvetica", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
 }
+  /* header */
+  .nav-link {
+    color: black;
+  }
+  
+  .nav-link:hover {
+    color: #5cb85f;
+  }
 .btn-green{
     color: white;
     background-color: #5CB85F;
 }
-.btn-register:hover{
-    color: rgb(229, 229, 229);
+.btn-green:hover{
+    color: #a6c5a7;
+    border: 0.5px solid #d4d4d4;
 }
 .nav-color{
     color: black;
@@ -24,6 +38,38 @@
 
 .p-0 {
   padding: 0 !important; 
+}
+
+/* bg collaps */
+.bg-collaps{
+    background-color: #F1F3FF;
+}
+
+/* sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1050;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  
+/* heroes */
+.heroes{
+    padding-top: 80px;
+    
+}
+.heroes-text{
+    padding-top: 60px;
+    margin-left: -20px;
 }
 
 /* our service */
@@ -71,15 +117,6 @@
     height: 24px;
 }
 
-@media (max-width: 768px) {
-    .content-section {
-        flex-direction: column;
-    }
-
-    .text-section {
-        margin-top: 20px;
-    }
-}
 
 /* why us */
 .card img {
@@ -88,11 +125,27 @@
 }
 
 /* testimonial */
+.swiper-container {
+    width: 100%;
+    overflow: hidden; 
+    height: auto;
+}
+
 .testimonial-card {
     background-color: #f8f9fa;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box; 
+}
+.swiper-slide {
+    width: auto; 
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 .testimonial-card img.profile {
     width: 100px;
@@ -131,16 +184,54 @@
 .hero-section .btn {
     margin-top: 20px;
     font-size: 1rem;
-    background-color: #28a745; /* warna hijau tombol */
+    background-color: #5CB85F; 
     color: white;
 }
 
-/* Responsif */
+/* footer */
+.navigasi a {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+  .navigasi a:hover {
+    color: #5cb85f;
+  }
+
+/* tablet view */
 @media (max-width: 768px) {
+    .heroes-text{
+        padding: 100px;
+        margin-left: 0px;
+    }
     .hero-section h1 {
         font-size: 1.8rem;
     }
     .hero-section {
         padding: 60px;
     }
+    .content-section {
+        flex-direction: column;
+    }
+
+    .text-section {
+        margin-top: 20px;
+    }
 }
+/* mobile view */
+@media (max-width: 425px) {
+    .heroes-text{
+        padding: 25px;
+        margin-left: 0px;
+    }
+    
+}
+/* desktop view */
+@media (min-width: 1024px) {
+    .heroes-text{
+
+        margin: 0px;
+
+    }
+}
+
