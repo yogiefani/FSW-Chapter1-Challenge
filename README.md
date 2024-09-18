@@ -1,8 +1,8 @@
 # 🚗 Challenge1 - HTML CSS Bootstrap Kelas FSW-2: Landing Page Sewa Mobil
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5 Badge](https://img.shields.io/badge/Code-HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3 Badge](https://img.shields.io/badge/Style-CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap Badge](https://img.shields.io/badge/Framework-Bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## 🚀 Tentang Proyek
 
