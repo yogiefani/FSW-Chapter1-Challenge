@@ -32,5 +32,5 @@ Kunjungi [Landing Page Sewa Mobil](https://github.com/yogiefani/FSW-Chapter1-Cha
 
 ## 🎯 Tujuan
 
-Landing page ini dirancang untuk memudahkan pengguna dalam menemukan layanan penyewaan mobil dengan antarmuka yang intuitif dan fitur yang mudah diakses. Didesain agar pengunjung tertarik melakukan aksi seperti pemesanan sewa mobil.
+Landing page ini hanya front end saja
 
