@@ -24,7 +24,7 @@ Ini adalah proyek **Landing Page Sewa Mobil** sebagai bagian dari **Challenge 1*
 
 ## 📸 Preview Landing Page
 
-![Landing Page Preview](https://www.figma.com/proto/QiNXZPX7OwUeFzqSPuiQBE/BCR---Binar-Car-Rental?node-id=18226-5390&node-type=canvas&t=vxdsdymY9SfL4S5z-0&scaling=scale-down&content-scaling=responsive&page-id=2%3A703&starting-point-node-id=18226%3A5390)
+![Landing Page Preview](https://www.figma.com/design/QiNXZPX7OwUeFzqSPuiQBE/BCR---Binar-Car-Rental?node-id=2-703&node-type=canvas&t=vxdsdymY9SfL4S5z-0)
 
 ## 🔗 Link Proyek
 
